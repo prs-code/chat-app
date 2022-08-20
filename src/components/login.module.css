@@ -1,0 +1,49 @@
+:root {
+    --bgColor: #121212;
+    --bgColor2: rgba(82, 75, 75, 0.1);
+    --textColor: #572780;
+    --borderColor: #272a80;
+    --buttonColor: #57dcbe;
+    --buttonHover: #38ef81;
+}
+
+.loginPage {
+    background-color: var(--bgColor);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColor);
+}
+.loginCart {
+    border: 1px solid var(--borderColor);
+    background-color: var(--bgColor2);
+    padding: 60px 75px;
+    border-radius: 10px;
+    text-align: center;
+}
+.loginCart h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--buttonColor);
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--textColor);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.Btn:hover {
+    background: var(--buttonHover);
+}
+.Btn img {
+    width: 30px;
+    margin-right: 10px;
+}
